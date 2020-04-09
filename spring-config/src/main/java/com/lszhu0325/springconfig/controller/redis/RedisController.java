@@ -1,8 +1,7 @@
 package com.lszhu0325.springconfig.controller.redis;
 
-import com.lszhu0325.springconfig.utils.redis.RedisUtils;
+import com.lszhu0325.springconfig.utils.redis.RedisUtil;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -15,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class RedisController {
 
     @Autowired
-    private RedisUtils redisUtils;
+    private RedisUtil redisUtils;
 
     @RequestMapping(value = "/helloWorld", method = RequestMethod.POST)
     public String helloWorld() {

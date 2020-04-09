@@ -18,8 +18,8 @@ public class IdGeneratorController {
     @Qualifier(value = "snowflakeIdGeneratorUtil")
     IdGeneratorUtil idGeneratorUtil;
 
-    @RequestMapping(value = "/helloWorld", method = RequestMethod.POST)
-    public void hellWorld() {
+    @RequestMapping(value = "/idGeneratorTest", method = RequestMethod.POST)
+    public void idGeneratorTest() {
         while (true) {
             System.out.println(idGeneratorUtil.nextId());
         }
