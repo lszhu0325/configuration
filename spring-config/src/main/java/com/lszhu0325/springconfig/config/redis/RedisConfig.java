@@ -19,30 +19,6 @@ import org.springframework.data.redis.serializer.StringRedisSerializer;
 @AutoConfigureAfter(RedisAutoConfiguration.class)
 public class RedisConfig {
 
-    @Value("${spring.redis.host}")
-    private String host;
-
-    @Value("${spring.redis.port}")
-    private int port;
-
-    @Value("${spring.redis.password}")
-    private String password;
-
-    @Value("${spring.redis.timeout}")
-    private int timeout;
-
-    @Value("${spring.redis.lettuce.pool.max-active}")
-    private int maxActive;
-
-    @Value("${spring.redis.lettuce.pool.max-idle}")
-    private int maxIdle;
-
-    @Value("${spring.redis.lettuce.pool.min-idle}")
-    private int minIdle;
-
-    @Value("${spring.redis.lettuce.pool.max-wait}")
-    private long maxWaitMillis;
-
     @Bean(name = "redisTemplate")
     public RedisTemplate<String, Object> redisTemplate(LettuceConnectionFactory lettuceConnectionFactory) {
         log.info("redisTemplate创建开始");
