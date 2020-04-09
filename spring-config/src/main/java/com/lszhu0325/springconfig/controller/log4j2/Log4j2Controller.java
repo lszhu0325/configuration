@@ -1,4 +1,4 @@
-package com.lszhu0325.springconfig.log4j2;
+package com.lszhu0325.springconfig.controller.log4j2;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

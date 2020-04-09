@@ -1,4 +1,4 @@
-package com.lszhu0325.springconfig.log4j2;
+package com.lszhu0325.springconfig.controller.log4j2;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.RequestMapping;
