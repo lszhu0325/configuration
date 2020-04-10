@@ -5,6 +5,10 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-1/spring-cloud-eureka-1.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-1/spring-cloud-eureka-1.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-2/spring-cloud-eureka-2.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-2/spring-cloud-eureka-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-instantiation-1/spring-cloud-instantiation-1.iml" filepath="$PROJECT_DIR$/spring-cloud-instantiation-1/spring-cloud-instantiation-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-instantiation-2/spring-cloud-instantiation-2.iml" filepath="$PROJECT_DIR$/spring-cloud-instantiation-2/spring-cloud-instantiation-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-instantiation-3/spring-cloud-instantiation-3.iml" filepath="$PROJECT_DIR$/spring-cloud-instantiation-3/spring-cloud-instantiation-3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-instantiation-4/spring-cloud-instantiation-4.iml" filepath="$PROJECT_DIR$/spring-cloud-instantiation-4/spring-cloud-instantiation-4.iml" />
     </modules>
   </component>
 </project>

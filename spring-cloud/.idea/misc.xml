@@ -8,6 +8,13 @@
       <list>
         <option value="$PROJECT_DIR$/spring-cloud-eureka-1/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-eureka-2/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-instrantiation-1/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-instrantation-2/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-instrantation-3/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-instantiation-1/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-instantiation-2/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-instantiation-3/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-instantiation-4/pom.xml" />
       </list>
     </option>
   </component>
