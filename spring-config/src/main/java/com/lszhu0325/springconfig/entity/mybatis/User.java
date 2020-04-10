@@ -1,4 +1,4 @@
-package com.lszhu0325.springconfig.entity;
+package com.lszhu0325.springconfig.entity.mybatis;
 
 import lombok.Data;
 import lombok.Getter;

@@ -20,7 +20,7 @@ public class IdGeneratorController {
 
     @RequestMapping(value = "/idGeneratorTest", method = RequestMethod.POST)
     public void idGeneratorTest() {
-        while (true) {
+        for (int i = 0; i < 10; i++) {
             System.out.println(idGeneratorUtil.nextId());
         }
     }

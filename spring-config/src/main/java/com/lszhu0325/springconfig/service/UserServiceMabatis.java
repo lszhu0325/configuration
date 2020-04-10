@@ -5,7 +5,7 @@ import com.lszhu0325.springconfig.request.User.UserRequest;
 /**
  * Create by lenovo on 2020/4/9
  */
-public interface UserService {
+public interface UserServiceMabatis {
 
     /**
      * 查询用户

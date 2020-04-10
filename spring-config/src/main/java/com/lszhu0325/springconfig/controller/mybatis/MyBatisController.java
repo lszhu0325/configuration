@@ -1,7 +1,7 @@
 package com.lszhu0325.springconfig.controller.mybatis;
 
 import com.lszhu0325.springconfig.request.User.UserRequest;
-import com.lszhu0325.springconfig.service.UserService;
+import com.lszhu0325.springconfig.service.UserServiceMabatis;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,10 +16,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class MyBatisController {
 
     @Autowired
-    private UserService userService;
+    private UserServiceMabatis userServiceMabatis;
 
     @RequestMapping(value = "/findById", method = RequestMethod.POST)
     public Object findById(@RequestBody UserRequest userRequest) {
-        return userService.findById(userRequest);
+        return userServiceMabatis.findById(userRequest);
     }
 }

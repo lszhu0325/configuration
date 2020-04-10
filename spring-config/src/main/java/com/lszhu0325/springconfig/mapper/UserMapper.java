@@ -1,6 +1,6 @@
 package com.lszhu0325.springconfig.mapper;
 
-import com.lszhu0325.springconfig.entity.User;
+import com.lszhu0325.springconfig.entity.mybatis.User;
 import org.springframework.stereotype.Repository;
 
 /**

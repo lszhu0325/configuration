@@ -1,10 +1,10 @@
 package com.lszhu0325.springconfig.service.impl;
 
-import com.lszhu0325.springconfig.entity.User;
+import com.lszhu0325.springconfig.entity.mybatis.User;
 import com.lszhu0325.springconfig.mapper.UserMapper;
 import com.lszhu0325.springconfig.request.User.UserRequest;
 import com.lszhu0325.springconfig.response.userResponse.UserResponse;
-import com.lszhu0325.springconfig.service.UserService;
+import com.lszhu0325.springconfig.service.UserServiceMabatis;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -14,7 +14,7 @@ import org.springframework.stereotype.Service;
  */
 @Service
 @Slf4j
-public class UserServiceImpl implements UserService {
+public class UserServiceMybatisImpl implements UserServiceMabatis {
 
     @Autowired
     private UserMapper userMapper;
