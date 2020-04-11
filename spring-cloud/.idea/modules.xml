@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-config-1/spring-cloud-config-1.iml" filepath="$PROJECT_DIR$/spring-cloud-config-1/spring-cloud-config-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-config-2/spring-cloud-config-2.iml" filepath="$PROJECT_DIR$/spring-cloud-config-2/spring-cloud-config-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-1/spring-cloud-eureka-1.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-1/spring-cloud-eureka-1.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-2/spring-cloud-eureka-2.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-2/spring-cloud-eureka-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-instantiation-1/spring-cloud-instantiation-1.iml" filepath="$PROJECT_DIR$/spring-cloud-instantiation-1/spring-cloud-instantiation-1.iml" />

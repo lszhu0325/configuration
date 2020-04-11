@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.lszhu0325</groupId>
-    <artifactId>spring-cloud-instrantiation-1</artifactId>
+    <artifactId>spring-cloud-config-2</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-cloud-instrantiation-1</name>
+    <name>spring-cloud-config-2</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -26,17 +26,12 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-config-server</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-openfeign</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-config</artifactId>
-        </dependency>
-
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
